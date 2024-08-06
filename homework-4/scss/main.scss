@@ -1,0 +1,29 @@
+@import './base';
+@import './utiles/animation';
+@import './utiles/fonts';
+@import './utiles/texts.scss';
+@import './utiles/variables';
+@import './utiles/utils';
+
+@import './components/advantages-card';
+@import './components/backdrop';
+@import './components/buttons';
+@import './components/carousel';
+@import './components/form-advice';
+@import './components/input';
+@import './components/modal';
+@import './components/links';
+@import './components/offers-card';
+@import './components/pagination';
+
+@import './layouts/advantages-section';
+@import './layouts/contacts-section';
+@import './layouts/container';
+@import './layouts/form-terms';
+@import './layouts/footer';
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/mobile-menu';
+@import './layouts/offers-section';
+@import './layouts/representation-section';
+@import './layouts/sections';
