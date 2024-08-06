@@ -1,0 +1,37 @@
+.offers-section {
+    padding: 20px 0;
+
+
+
+    &__slider {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+    }
+
+    &__content {
+        overflow: hidden;
+    }
+
+    &__list {
+        display: flex;
+        margin-bottom: 16px;
+
+        @media screen and (min-width: $bp-tablet) {
+            margin-bottom: 32px;
+        }
+    }
+
+    &__button {
+        display: none;
+
+        @media screen and (min-width: $bp-tablet) {
+            display: flex;
+        }
+    }
+}
+
+
+
+
+
